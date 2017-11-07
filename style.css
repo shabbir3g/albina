@@ -619,3 +619,11 @@ table th {
 .bottom-table-con{
 	overflow: hidden;
 }
+.current-menu-item a,.current-menu-item a:hover {
+	background: #68BC4D;
+	color: #fff !important;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #fff !important;
+	background: #68BC4D;
+}
