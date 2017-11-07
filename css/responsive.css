@@ -1,0 +1,245 @@
+
+@media (max-width: 1199px) {
+    /* Header Styles =================================== */
+    
+    .navbar .navbar-header {
+        float: none;
+        padding: 0;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .navbar .navbar-header .navbar-toggle {
+        margin: 20px 15px;
+        display: block;
+        border: 0;
+		padding: 31px 9px;
+    }
+    .navbar .navbar-header .navbar-toggle:hover .icon-bar:nth-child(1) {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+   .navbar .navbar-header .navbar-toggle:hover .icon-bar:nth-child(3) {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+	.navbar .navbar-header .navbar-toggle:hover,
+    .navbar .navbar-header .navbar-toggle:focus {
+        background: transparent;
+    }
+    .navbar .navbar-header .navbar-toggle:hover:before,
+    .navbar .navbar-header .navbar-toggle:focus:before {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .navbar .navbar-header .navbar-toggle.in .icon-bar {
+        -webkit-transition: -webkit-transform 150ms linear;
+        transition: -webkit-transform 150ms linear;
+        transition: transform 150ms linear;
+        transition: transform 150ms linear, -webkit-transform 150ms linear;
+    }
+    .navbar .navbar-header .navbar-toggle.in .icon-bar:nth-child(1) {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    .navbar .navbar-header .navbar-toggle.in .icon-bar:nth-child(1) .inner {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .navbar .navbar-header .navbar-toggle.in .icon-bar:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar .navbar-header .navbar-toggle.in .icon-bar:nth-child(3) {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    .navbar .navbar-header .navbar-toggle.in .icon-bar:nth-child(3) .inner {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .navbar .navbar-header .navbar-toggle .icon-bar {
+        width: 25px;
+        margin-bottom: 4px;
+        background: transparent;
+        -webkit-transition: -webkit-transform 150ms linear 150ms;
+        transition: -webkit-transform 150ms linear 150ms;
+        transition: transform 150ms linear 150ms;
+        transition: transform 150ms linear 150ms, -webkit-transform 150ms linear 150ms;
+    }
+    .navbar .navbar-header .navbar-toggle .icon-bar .inner {
+        display: block;
+        -webkit-transition: background-color 150ms linear, opacity 0s linear 150ms, -webkit-transform 150ms linear;
+        transition: background-color 150ms linear, opacity 0s linear 150ms, -webkit-transform 150ms linear;
+        transition: transform 150ms linear, background-color 150ms linear, opacity 0s linear 150ms;
+        transition: transform 150ms linear, background-color 150ms linear, opacity 0s linear 150ms, -webkit-transform 150ms linear;
+        width: 100%;
+        height: 2px;
+        background-color: #68BC4D;
+    }
+
+    .navbar .navbar-collapse {
+        margin: 0 -15px 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-top: 1px solid #e7e7e7 !important;
+    }
+    .navbar .navbar-collapse.collapse {
+        display: none !important;
+    }
+	.navbar .navbar-collapse.collapse.collapsing {
+        overflow: hidden !important;
+    }
+    .navbar .navbar-collapse.collapse.in {
+		display: block !important;
+	}
+    
+    .navbar .navbar-collapse .nav {
+        float: none !important;
+        margin: 15px 0;
+    }
+    .navbar .navbar-collapse .nav li {
+        float: none;
+        display: block;
+    }
+    .navbar .navbar-collapse .nav li a {
+		width: 100%;
+		padding: 4px 15px;
+		text-align: center;
+		font-size: 16px;
+	}
+    .navbar .navbar-collapse .nav li a:after {
+        content: inherit;
+        display: none;
+    }
+}
+
+@media all and (max-width: 991px){
+	.certified-area {
+		background-size: 100% 100%;
+		/* height: 420px; */
+		border-bottom: 6px solid #68BC4D;
+		background-repeat: no-repeat;
+	}
+	.left-certified {
+		padding-top: 200px;
+		
+	}
+	.right-certified {
+		padding-top: 200px;
+		padding-left: 0; 
+	}
+	.footer-area{
+		text-align:center;
+	}
+	.subscription-form form input[type="submit"] {
+		float: none;
+	}
+	.about-us .nav-tabs > li {
+		width: 48.75%;
+		margin-bottom: 3px;
+	}
+	.approvals img {
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.about-image img {
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.featured-category-image img {
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.product-image img{
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+}
+
+
+@media all and (max-width: 767px){
+	.certified-area {
+		background-size: cover;
+		/* height: 420px; */
+		border-bottom: 6px solid #68BC4D;
+		background-repeat: no-repeat;
+	}
+	.left-certified {
+		padding-top: 43px;
+	}
+	.right-certified {
+		padding-top: 43px;
+		padding-left: 0; 
+	}
+	.right-certified h2 , .left-certified h2{
+		color: #fff;
+		font-size: 30px;
+	}
+	.left-certified h2.ydepen {
+		margin-left: 157px;
+	}
+	.right-certified h2.cer-you{
+		margin-left: 118px;
+	}
+	.right-certified h2.cer-trust{
+		margin-left: 140px;
+	}
+	.about-image img {
+		width: 70%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.featured-category-image img {
+		width: 70%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.product-image img{
+		width: 70%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+}
+
+
+@media all and (max-width: 364px){
+	
+	.navbar .navbar-header .navbar-toggle {
+		margin: 0;
+		display: inherit;
+	}
+	.about-us .nav-tabs > li {
+		width: 100%;
+		margin-bottom: 3px;
+	}
+	.about-image img {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.featured-category-image img {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	.product-image img{
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	
+}
